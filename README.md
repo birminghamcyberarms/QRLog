@@ -407,7 +407,7 @@ Thread.sleep(3000);
 <a name="indicadores"></a>
 ## IOCs
 
-- [Versión en OpenIOC](https://github.com/mauroeldritch/QRLog/iocs/8cdccc15-5563-48bf-9493-7730aa19517c.ioc)
+- [Versión en OpenIOC](https://github.com/mauroeldritch/QRLog/blob/main/iocs/8cdccc15-5563-48bf-9493-7730aa19517c.ioc)
 - Versión en texto plano (ver debajo)
 
 ```
@@ -431,10 +431,10 @@ MD5:26b7d315dd19eb932a08fe474e0f0c31
 - Muestra original oculta en un proyecto Java para generar QRs
   - `https://drive.google.com/file/d/1J6943NKwGIcWHh7lj4o9gJe__9p7F1o7/view`
 - Mirror de la muestra original
-  - [sample.zip](https://github.com/mauroeldritch/QRLog/samples/sample.zip)
+  - [sample.zip](https://github.com/mauroeldritch/QRLog/blob/main/samples/sample.zip)
   - Password: _mauroeldritch_
 - Archivo infectado
-  - [QRCodeWriter.java](https://github.com/mauroeldritch/QRLog/samples/QRCodeWriter.java)
+  - [QRCodeWriter.java](https://github.com/mauroeldritch/QRLog/blob/main/samples/QRCodeWriter.java)
 
 <a name="referencias"></a>
 ## Referencias
@@ -832,7 +832,7 @@ Thread.sleep(3000);
 <a name="indicators"></a>
 ## IOCs
 
-- [OpenIOC version](https://github.com/mauroeldritch/QRLog/iocs/8cdccc15-5563-48bf-9493-7730aa19517c.ioc)
+- [OpenIOC version](https://github.com/mauroeldritch/QRLog/blob/main/iocs/8cdccc15-5563-48bf-9493-7730aa19517c.ioc)
 - Plaintext version (see below)
 
 ```
@@ -856,10 +856,10 @@ MD5:26b7d315dd19eb932a08fe474e0f0c31
 - Original Sample
   - `https://drive.google.com/file/d/1J6943NKwGIcWHh7lj4o9gJe__9p7F1o7/view`
 - Mirror
-  - [sample.zip](https://github.com/mauroeldritch/QRLog/samples/sample.zip)
+  - [sample.zip](https://github.com/mauroeldritch/QRLog/blob/main/samples/sample.zip)
   - Password: _mauroeldritch_
 - Malicious Java file
-  - [QRCodeWriter.java](https://github.com/mauroeldritch/QRLog/samples/QRCodeWriter.java)
+  - [QRCodeWriter.java](https://github.com/mauroeldritch/QRLog/blob/main/samples/QRCodeWriter.java)
 
 <a name="references"></a>
 ## References
