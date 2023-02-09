@@ -27,7 +27,7 @@ En Febrero de 2023 encontré por primera vez una muestra del malware QRLog _in t
 
 Es un malware sencillo - y en apariencia, de fabricación casera - de tipo RAT (_Remote Access Tool_) que intenta abrir una _shell reversa_ otorgando al atacante acceso privilegiado al equipo infectado.
 
-Al momento de escribir esta investigación no existen menciones públicas a este malware o a sus componentes, como tampoco detecciones por parte de software antivirus o plataformas de seguridad, lo que nos indica estar ante una muestra novel [[1]](#referencias). Sin embargo algunas plataformas de inteligencia como  CMC (Vietnam) han marcado el enlace original al archivo como sospechoso [[1]](#referencias), y en otras es posible encontrar menciones a parte de su infraestructura C2 (asociada a Cobalt Strike y cuya reutilización es común)[[2]](#referencias).
+Al momento de escribir esta investigación no existen menciones públicas a este malware o a sus componentes, como tampoco detecciones por parte de software antivirus o plataformas de seguridad, lo que nos indica estar ante una muestra novel [[1]](#referencias). Sin embargo algunas plataformas de inteligencia como  CMC (Vietnam) han marcado el enlace original al archivo como sospechoso [[1]](#referencias), y en otras es posible encontrar menciones a parte de su infraestructura C2 (asociada a Cobalt Strike y cuya reutilización es común)[[2][3]](#referencias).
 
 <a name="comportamiento"></a>
 ## Comportamiento
@@ -440,7 +440,8 @@ MD5:26b7d315dd19eb932a08fe474e0f0c31
 ## Referencias
 1) [VirusTotal](https://www.virustotal.com/gui/url/da45ab04a24c4473acdecc8288fbaf3c200e82c32525b8378753f41eec3b5493/detection)
 2) [AlienVault OTX](https://otx.alienvault.com/indicator/ip/45.77.123.18)
-  
+3) [Pulso de inteligencia en AlienVault OTX](https://otx.alienvault.com/pulse/63e50c46063dd5d3a5992804)
+
 ---
   
 <a name="english"></a>
@@ -452,7 +453,7 @@ In February 2023 I first encountered a sample of the QRLog malware _in the wild_
 
 It is a simple RAT (_Remote Access Tool_) malware that attempts to open a _reverse shell_ granting the attacker privileged access to the infected computer.
 
-At the time of writing this research, there are no public mentions of this malware or its components, nor are there any detections by antivirus software or security platforms, which indicates that we are dealing with a novel sample [[1]](#references). However, some intelligence platforms such as CMC (Vietnam) have marked the original link to the file as suspicious [[1]](#references), and in others it is possible to find mentions of part of its C2 infrastructure (associated with Cobalt Strike and whose reuse is common)[[2]](#references).
+At the time of writing this research, there are no public mentions of this malware or its components, nor are there any detections by antivirus software or security platforms, which indicates that we are dealing with a novel sample [[1]](#references). However, some intelligence platforms such as CMC (Vietnam) have marked the original link to the file as suspicious [[1]](#references), and in others it is possible to find mentions of part of its C2 infrastructure (associated with Cobalt Strike and whose reuse is common)[[2][3]](#references).
 
 <a name="behaviour"></a>
 ## Behaviour
@@ -865,3 +866,4 @@ MD5:26b7d315dd19eb932a08fe474e0f0c31
 ## References
 1) [VirusTotal](https://www.virustotal.com/gui/url/da45ab04a24c4473acdecc8288fbaf3c200e82c32525b8378753f41eec3b5493/detection)
 2) [AlienVault OTX](https://otx.alienvault.com/indicator/ip/45.77.123.18)
+3) [AlienVault OTX Intelligence Pulse](https://otx.alienvault.com/pulse/63e50c46063dd5d3a5992804)
