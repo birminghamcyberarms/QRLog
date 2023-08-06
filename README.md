@@ -395,6 +395,8 @@ Thread.sleep(3000);
 
 ### Detalles de interés
 
+- Habiendo realizado ingeniería inversa sobre la muestra y entendiendo cómo entabla comunicación con su C2, decidí enviar solicitudes de contacto al mismo con mi alias de Telegram para intentar conseguir una breve entrevista con el grupo. Su respuesta fue un ataque de SSH Bruteforce a gran escala contra la dirección IP desde la que había enviado las solicitudes. Siendo que este equipo contaba en realidad con una honeypot, fue posible registrar toda la infraestructura ofensiva que utilizaron en la operación y volcarla en un pulso de inteligencia [[4]](#referencias). Una versión en texto plano puede descargarse [acá](https://github.com/BirminghamCyberArms/QRLOG/blob/main/iocs/labyrinth_chollima_attack_infrastructure.csv).
+
 - El archivo `inputFiles.lst` contiene información de compilación de Maven. A partir del mismo es posible saber que el autor del malware se hace llamar *Edward* y utiliza una plataforma Windows:
 ```bash
 #[...]
@@ -404,10 +406,12 @@ Thread.sleep(3000);
 #[...]
   ```
 
+- Esta investigación fue aceptada como Charla para la Recon Village de la DEF CON 31 [[5]](#referencias).
+
 <a name="indicadores"></a>
 ## IOCs
 
-- [Versión en OpenIOC](https://github.com/mauroeldritch/QRLog/blob/main/iocs/8cdccc15-5563-48bf-9493-7730aa19517c.ioc)
+- [Versión en OpenIOC](https://github.com/birminghamcyberarms/QRLOG/blob/main/iocs/8cdccc15-5563-48bf-9493-7730aa19517c.ioc)
 - Versión en texto plano (ver debajo)
 
 ```
@@ -431,16 +435,18 @@ MD5:26b7d315dd19eb932a08fe474e0f0c31
 - Muestra original oculta en un proyecto Java para generar QRs
   - `https://drive.google.com/file/d/1J6943NKwGIcWHh7lj4o9gJe__9p7F1o7/view`
 - Mirror de la muestra original
-  - [sample.zip](https://github.com/mauroeldritch/QRLog/blob/main/samples/sample.zip)
+  - [sample.zip](https://github.com/birminghamcyberarms/QRLOG/blob/main/samples/sample.zip)
   - Password: _mauroeldritch_
 - Archivo infectado
-  - [QRCodeWriter.java](https://github.com/mauroeldritch/QRLog/blob/main/samples/QRCodeWriter.java)
+  - [QRCodeWriter.java](https://github.com/birminghamcyberarms/QRLOG/blob/main/samples/QRCodeWriter.java)
 
 <a name="referencias"></a>
 ## Referencias
 1) [VirusTotal](https://www.virustotal.com/gui/url/da45ab04a24c4473acdecc8288fbaf3c200e82c32525b8378753f41eec3b5493/detection)
 2) [AlienVault OTX](https://otx.alienvault.com/indicator/ip/45.77.123.18)
 3) [Pulso de inteligencia en AlienVault OTX](https://otx.alienvault.com/pulse/63e50c46063dd5d3a5992804)
+4) [Pulso de inteligencia en AlienVault OTX - Actualizado](https://otx.alienvault.com/pulse/64cfcc366fc8f13ce315f39a)
+5) [DEF CON 31 - Charla en Recon Village](https://reconvillage.org/recon-village-talks-2023-defcon-31/)
 
 ---
   
@@ -820,6 +826,8 @@ Thread.sleep(3000);
 
 ### Interesting details
 
+- Having performed reverse engineering on the sample and understanding how it communicates with its C2 (Command and Control), I decided to send contact requests to it using my Telegram alias in an attempt to secure a brief interview with the group. Their response was a large-scale SSH Bruteforce attack against the IP address from which I had sent the requests. Since this system was actually a honeypot, it was possible to record all the offensive infrastructure they used in the operation and dump it into an intelligence pulse [[4]](#references). Plaintext version can be found [here](https://github.com/BirminghamCyberArms/QRLOG/blob/main/iocs/labyrinth_chollima_attack_infrastructure.csv).
+
 - The `inputFiles.lst` file contains Maven build information. From it, it is possible to know that the author of the malware calls himself *Edward* and uses a Windows platform:
   
 ```bash
@@ -830,10 +838,12 @@ Thread.sleep(3000);
 #[...]
   ```
 
+- This investigation was accepted as a Talk for the Recon Village at DEF CON 31 [[5]](#references).
+
 <a name="indicators"></a>
 ## IOCs
 
-- [OpenIOC version](https://github.com/mauroeldritch/QRLog/blob/main/iocs/8cdccc15-5563-48bf-9493-7730aa19517c.ioc)
+- [OpenIOC version](https://github.com/birminghamcyberarms/QRLOG/blob/main/iocs/8cdccc15-5563-48bf-9493-7730aa19517c.ioc)
 - Plaintext version (see below)
 
 ```
@@ -857,13 +867,15 @@ MD5:26b7d315dd19eb932a08fe474e0f0c31
 - Original Sample
   - `https://drive.google.com/file/d/1J6943NKwGIcWHh7lj4o9gJe__9p7F1o7/view`
 - Mirror
-  - [sample.zip](https://github.com/mauroeldritch/QRLog/blob/main/samples/sample.zip)
+  - [sample.zip](https://github.com/birminghamcyberarms/QRLOG/blob/main/samples/sample.zip)
   - Password: _mauroeldritch_
 - Malicious Java file
-  - [QRCodeWriter.java](https://github.com/mauroeldritch/QRLog/blob/main/samples/QRCodeWriter.java)
+  - [QRCodeWriter.java](https://github.com/birminghamcyberarms/QRLOG/blob/main/samples/QRCodeWriter.java)
 
 <a name="references"></a>
 ## References
 1) [VirusTotal](https://www.virustotal.com/gui/url/da45ab04a24c4473acdecc8288fbaf3c200e82c32525b8378753f41eec3b5493/detection)
 2) [AlienVault OTX](https://otx.alienvault.com/indicator/ip/45.77.123.18)
 3) [AlienVault OTX Intelligence Pulse](https://otx.alienvault.com/pulse/63e50c46063dd5d3a5992804)
+4) [AlienVault OTX Intelligence Pulse - Updated](https://otx.alienvault.com/pulse/64cfcc366fc8f13ce315f39a)
+5) [DEF CON 31 - Recon Village Talk Announcement](https://reconvillage.org/recon-village-talks-2023-defcon-31/)
