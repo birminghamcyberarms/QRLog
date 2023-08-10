@@ -1,7 +1,22 @@
-QRLog Malware Analysis
+QRLog
 ======
 
-Index
+- [Riding with the Chollimas - QRLog DEF CON 31 Talk](#riding)
+- [QRLog Malware Analysis (English)](#english)
+- [QRLog Análisis de Malware (Español)](#espanol)
+
+<a name="espanol"></a>
+Talk: Riding with the Chollimas
+======
+
+## Presentations
+|#| Date | Conference |  Link to Video | Link to Slides |
+|---|---|---|---|---|
+|1|AGO-2023|DEFCON 31 Recon Village| - | https://docs.google.com/presentation/d/1mQuauuJCdDI9d_HfIvLdtk_vM4FU4v0AUmlTShV9_hI |
+
+
+QRLog Malware Analysis
+======
 
 - [Español](#espanol)
   - [Introducción](#introduccion)
@@ -413,6 +428,7 @@ Thread.sleep(3000);
 
 - [Versión en OpenIOC](https://github.com/birminghamcyberarms/QRLOG/blob/main/iocs/8cdccc15-5563-48bf-9493-7730aa19517c.ioc)
 - Versión en texto plano (ver debajo)
+- [Infraestructura ofensiva de Labyrinth Chollima](https://github.com/BirminghamCyberArms/QRLOG/blob/main/iocs/labyrinth_chollima_attack_infrastructure.csv)
 
 ```
 File:QRLog.java
@@ -845,6 +861,7 @@ Thread.sleep(3000);
 
 - [OpenIOC version](https://github.com/birminghamcyberarms/QRLOG/blob/main/iocs/8cdccc15-5563-48bf-9493-7730aa19517c.ioc)
 - Plaintext version (see below)
+- [Labyrinth Chollima Adversary Infrastructure](https://github.com/BirminghamCyberArms/QRLOG/blob/main/iocs/labyrinth_chollima_attack_infrastructure.csv)
 
 ```
 File:QRLog.java
