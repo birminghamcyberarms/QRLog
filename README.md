@@ -12,7 +12,7 @@ Talk: Riding with the Chollimas
 ## Presentations
 |#| Date | Conference |  Link to Video | Link to Slides |
 |---|---|---|---|---|
-|1|AGO-2023|DEFCON 31 Recon Village| - | https://docs.google.com/presentation/d/1mQuauuJCdDI9d_HfIvLdtk_vM4FU4v0AUmlTShV9_hI |
+|1|AGO-2023|DEFCON 31 Recon Village| https://www.youtube.com/watch?v=DB6yDJeb6U8 | https://docs.google.com/presentation/d/1mQuauuJCdDI9d_HfIvLdtk_vM4FU4v0AUmlTShV9_hI |
 
 
 QRLog Malware Analysis
