@@ -14,7 +14,7 @@ Talk: Riding with the Chollimas
 |---|---|---|---|---|
 |1|AGO-2023|DEFCON 31 Recon Village| https://www.youtube.com/watch?v=DB6yDJeb6U8 | https://docs.google.com/presentation/d/1mQuauuJCdDI9d_HfIvLdtk_vM4FU4v0AUmlTShV9_hI |
 |2|SEP-2023|Nerdearla|https://www.youtube.com/watch?v=KCe-kRmgHao|https://docs.google.com/presentation/d/1gjv-aCfjIBaUEZRMGQaly8btb083XzfwpPmbB2itqd8|
-|3|NOV-2023|8.8 Chile|-|-|
+|3|NOV-2023|8.8 Chile|-|https://docs.google.com/presentation/d/1On7DetPOaZsxbDHD7eXdeVHt3s-JgcKz5tNqciv1vCM|
 
 
 QRLog Malware Analysis
